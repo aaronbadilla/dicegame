@@ -11,13 +11,13 @@ function diceTest() {
 
 // Dice Math
 
-var playerOneDice = Math.floor(Math.random()*6) + 1;
-var playerTwoDice = Math.floor(Math.random()*6) + 1;
+const playerOneDice = Math.floor(Math.random()*6) + 1;
+const playerTwoDice = Math.floor(Math.random()*6) + 1;
 
 // Selecting Images
 
-var imageSelector1 = document.querySelector(".img1");
-var imageSelector2 = document.querySelector(".img2");
+const imageSelector1 = document.querySelector(".img1");
+const imageSelector2 = document.querySelector(".img2");
 
 // Changing Images
 
@@ -26,7 +26,7 @@ imageSelector2.setAttribute("src","images/dice" + playerTwoDice + ".png");
 
 // Changing Title
 
-var title = document.querySelector("h1")
+const title = document.querySelector("h1")
 
 if (playerOneDice > playerTwoDice) {
   title.innerHTML = "<i class='fas fa-flag'></i> Player 1 Wins!"}
@@ -70,7 +70,7 @@ else if (playerOneDice === playerTwoDice) {title.innerHTML = "Draw!"}
 
 
 
-  var title = document.querySelector("h1")
+  const title = document.querySelector("h1")
 
 if (playerOneDice > playerTwoDice) {
     title.innerHTML = "<i class='fas fa-flag'></i> Player 1 Wins!"}

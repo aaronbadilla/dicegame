@@ -40,6 +40,16 @@ footer {
 
 }
 
+a {
+  color: #bdd8f1
+}
+
 .fa-flag {
   color: #BF0000;
+}
+
+.footer {
+  margin-top:5em;
+  margin: auto;
+  width: 50%
 }
